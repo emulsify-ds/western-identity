@@ -4,9 +4,9 @@ module.exports = {
     {
       resolve: 'gatsby-theme-emulsify',
       options: {
-        componentLibPath: 'components', // Where your component library lives
+        componentLibPath: 'node_modules/western-up-twig', // Where your component library lives
         docPagesPath: 'styleguide', // Where your custom styleguide pages live
-        UILibPath: "https://emulsify-ds.github.io/western-university/iframe.html",
+        UILibPath: "https://live-westernuni.pantheonsite.io/storybook/iframe.html",
         basePath: __dirname, // Needed to make above paths relative to your project
         // designSystems: [
         //   {
