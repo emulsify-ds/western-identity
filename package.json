@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.19.7",
-    "gatsby-theme-emulsify": "^1.0.0-alpha.26",
+    "gatsby-theme-emulsify": "^1.0.0-alpha.28",
     "western-up-twig": "^0.0.40"
   },
   "scripts": {
