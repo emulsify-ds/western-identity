@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/western-identity",
   plugins: [
     {
       resolve: 'gatsby-theme-emulsify',
