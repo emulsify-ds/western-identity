@@ -13,6 +13,6 @@
     "setup": "git clone git@github.com:emulsify-ds/western-up-twig.git && git clone git@github.com:emulsify-ds/western-up-scss.git && yarn",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build && cp ./CNAME public/ && gh-pages -d public"
   }
 }
